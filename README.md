@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/263b3539-5bf9-4b35-b96e-7c6c5ffb3027
 ## Simulation Environment
 AirSim's neighborhood environment is utilized due to its simple structure, making it well-suited for path-tracking algorithms. The project has been tested on Windows 11, but not on Linux; therefore, running the scripts on a Windows operating system is recommended.
 
-The simulation environment can be downloaded from our release page. To configure the environment, move the `settings.json` file to the `%userprofile%\Documents\Airsim` and run the `AirsimNH.exe` from the environment folder. Once the simulation is running, a Python script containing the following lines can connect to the environment for API calls:
+The simulation environment can be downloaded from our release page. To configure the environment, move the `settings.json` file to the `%userprofile%\Documents\AirSim` and run the `AirSimNH\WindowsNoEditor\AirsimNH.exe` from the environment folder. Once the simulation is running, a Python script containing the following lines can connect to the environment for API calls:
 
 ```python
     import airsim
