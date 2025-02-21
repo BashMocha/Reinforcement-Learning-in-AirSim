@@ -22,7 +22,7 @@ The simulation environment can be downloaded from the project's [release page](h
 ```
 
 ## Conda environment
-Run the following commands to create and activate the Conda environment with the required dependencies
+Run the following commands to create and activate the conda environment with the required dependencies
 ```
   conda env create -f environment.yml
   conda activate airsim
@@ -30,8 +30,8 @@ Run the following commands to create and activate the Conda environment with the
 
 ## Usage
 
-#### Training
-Once the simulation environment is running, execute the train.py script to connect to it. By default, the agent is trained for 1000 epochs, but this can be adjusted using the episodes parameter in the script.
+### Training
+Once the simulation environment is running, execute the `train.py` script to connect to it. By default, the agent is trained for 1000 epochs, but this can be adjusted using the `episodes` parameter in the script.
 ```
   python train.py
 ```
@@ -47,19 +47,19 @@ waypoints = [
         ]
 ```
 
-Run custom_collect_poses.py to control the car for position data collection. The collected position data will be stored in `%userprofile%\Documents\AirSim`.
+Run `custom_collect_poses.py` to control the car for position data collection. The collected position data will be stored in `%userprofile%\Documents\AirSim`.
 ```
   python custom_collect_poses.py
 ```
 
-#### Transfer Learning
-The network weights will be saved after training. Running load_model.py will load and execute the saved weights.
+### Transfer Learning
+The network weights will be saved after training. Running `load_model.py` will load and execute the saved weights.
 ```
   python load_model.py
 ```
 
-#### Path Evaluation
-To evaluate the model's path-tracking performance, robotics navigation metrics (SR, OSR, NE, SDTW, NDTW, CLS) are provided in the evaluation.py script. Executing the script will generate a comparison plot of the resulting and reference trajectories.
+## Path Evaluation
+To evaluate the model's path-tracking performance, robotics navigation metrics (SR, OSR, NE, SDTW, NDTW, CLS) are provided in the `evaluation.py` script. Executing the script will generate a comparison plot of the resulting and reference trajectories.
 
 See the [documentation](https://github.com/BashMocha/Reinforcement-Learning-in-AirSim/blob/master/docs/Reinforcement_Learning_on_Autonomous_Vehicles.pdf) for a detailed explanation of metrics.
 ```
