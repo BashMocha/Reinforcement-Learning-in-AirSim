@@ -1,6 +1,6 @@
 # Autonomous Driving in AirSim by Reinforcement Learning
 
-> Autonomous driving for path tracking in AirSim by applying the Deep-Q Network algorithm. See the [documentation]() for a detailed explanation.
+> Autonomous driving for path tracking in AirSim by applying the Deep-Q Network algorithm. See the [documentation](https://github.com/BashMocha/Reinforcement-Learning-in-AirSim/blob/master/docs/Reinforcement_Learning_on_Autonomous_Vehicles.pdf) for a detailed explanation.
 <br>
 
 https://github.com/user-attachments/assets/263b3539-5bf9-4b35-b96e-7c6c5ffb3027
